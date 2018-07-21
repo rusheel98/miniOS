@@ -1,0 +1,13 @@
+
+mysql -u root -p
+
+DB commands:
+
+create database osProject
+
+use osProject;
+
+CREATE TABLE oslogin (id int( 11 ) NOT NULL AUTO_INCREMENT ,username varchar(30) NOT NULL ,password varchar( 128 ) NOT NULL,PRIMARY KEY ( id ) ,UNIQUE KEY username ( username)) 
+
+insert into oslogin(username,password) values('rusheel','rusheel123');
+
