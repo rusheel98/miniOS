@@ -33,6 +33,8 @@ Disk Scheduler application : Disk scheduler UI number of input requests(using NR
  
                      Compile Java source code to create executable or use runnable jar shared with the source code.
                      
+Note: Eclipse should be setup to create osProject package and copy the source files, images to compile the code. Referenced external libraries are places in resources folder for your reference. Required eclipse settings should be made as applicable.
+                     
  
  
  
